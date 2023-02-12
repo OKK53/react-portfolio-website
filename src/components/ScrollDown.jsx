@@ -1,12 +1,13 @@
 import { AiOutlineArrowDown } from "react-icons/ai";
 function ScrollDown() {
   return (
-    <div className="">
-      {/*home_scroll*/}
-      <a href="/" className="flex">
-        {/*home_scroll-button button--flex*/}
+    <div>
+      <a
+        href="/"
+        className="inline-flex items-center text-center justify-center ml-36 font-poppins"
+      >
         <svg
-          className="w-8 h-8 ml-36"
+          className="w-8 h-8"
           viewBox="0 0 247 390"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -38,11 +39,10 @@ function ScrollDown() {
             }}
           ></path>
         </svg>
-        <span className="ml-1 self-center">
-          {/*home_scroll-name*/}Scroll Down
+        <span className="flex ml-1 hover:text-blue-600 items-center">
+          Scroll Down
+          <AiOutlineArrowDown />
         </span>
-        <AiOutlineArrowDown className="self-center" />
-        {/*home_scroll-arrow*/}
       </a>
     </div>
   );

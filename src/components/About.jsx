@@ -6,9 +6,12 @@ import ScrollDown from "./ScrollDown";
 
 function About() {
   return (
-    <section className="pt-24 pb-8 px-0">
+    <section
+      className="pt-24 pb-8 px-0"
+      id="about"
+      style={{ height: "calc(100vh - 64px)" }}
+    >
       <div className="container mx-auto grid gap-y-28">
-        {/*home_container container grid*/} {/*home_content grid*/}
         <div
           className="grid pt-8 gap-x-8 items-center"
           style={{ gridTemplateColumns: `116px repeat(2, 1fr)` }}
