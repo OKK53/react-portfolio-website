@@ -1,10 +1,11 @@
 import { AiOutlineArrowDown } from "react-icons/ai";
+
 function ScrollDown() {
   return (
     <div>
       <a
-        href="/"
-        className="inline-flex items-center text-center justify-center ml-36 font-poppins"
+        href="#skills"
+        className="hidden sm:inline-flex items-center text-center justify-center ml-36 font-poppins"
       >
         <svg
           className="w-8 h-8"

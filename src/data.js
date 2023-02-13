@@ -22,10 +22,15 @@ import npm from "assets/skillsSVG/npm.svg";
 import vscode from "assets/skillsSVG/vscode.svg";
 import netbeans from "assets/skillsSVG/netbeans.svg";
 import pycharm from "assets/skillsSVG/pycharm.svg";
+import postman from "assets/skillsSVG/postman.svg";
+import kalilinux from "assets/skillsSVG/kalilinux.svg";
+import photoshop from "assets/skillsSVG/photoshop.svg";
+
 //project images
 import work1 from "assets/projectsImages/work1.jpg";
 import work2 from "assets/projectsImages/work2.jpg";
 import work3 from "assets/projectsImages/work3.jpg";
+import portWebsite from "assets/projectsImages/portWebsite.png";
 
 export const skillsSvg = [
   {
@@ -123,6 +128,7 @@ export const skillsSvg = [
     name: "github",
     svg: github,
   },
+
   {
     id: 20,
     name: "npm",
@@ -130,18 +136,33 @@ export const skillsSvg = [
   },
   {
     id: 21,
+    name: "postman",
+    svg: postman,
+  },
+  {
+    id: 22,
     name: "vscode",
     svg: vscode,
   },
   {
-    id: 22,
+    id: 23,
     name: "netbeans",
     svg: netbeans,
   },
   {
-    id: 23,
+    id: 24,
     name: "pycharm",
     svg: pycharm,
+  },
+  {
+    id: 25,
+    name: "kalilinux",
+    svg: kalilinux,
+  },
+  {
+    id: 26,
+    name: "photoshop",
+    svg: photoshop,
   },
 ];
 
@@ -151,6 +172,7 @@ export const projects = [
     img: work1,
     title: "React-Blog-MERN",
     desc: "This is a MERN Stack blog app project using React.js, Node.js, Express.js, MongoDB and Tailwind CSS. User can register, login, create, edit, delete and view posts (blogs).",
+    link: "https://github.com/OKK53/react-blog-MERN",
     tags: [
       "reactjs",
       "javascript",
@@ -165,6 +187,7 @@ export const projects = [
     img: work2,
     title: "React-Navarc-Website",
     desc: "This is a website project using React.js, TailwindCSS, emailjs. Two different language options, Turkish and English. Contact with validations using emailjs. ",
+    link: "https://github.com/OKK53/react-navarc-website",
     tags: [
       "reactjs",
       "javascript",
@@ -180,6 +203,7 @@ export const projects = [
     img: work3,
     title: "React-CRUD-Books",
     desc: "This is a CRUD operations app using React.js, MySQL, Node.js, Express.js,TailwindCSS. CRUD data using a MySQL database.",
+    link: "https://github.com/OKK53/react-CRUD-books",
     tags: [
       "reactjs",
       "javascript",
@@ -188,5 +212,13 @@ export const projects = [
       "nodejs",
       "tailwindcss",
     ],
+  },
+  {
+    id: 4,
+    img: portWebsite,
+    title: "React-Portfolio-Website",
+    desc: "This is a my responsive portfolio website using React.js and Tailwind CSS. There are about, skills and projects sections. Also has dark-light theme.",
+    link: "https://github.com/OKK53/react-portfolio-website",
+    tags: ["reactjs", "javascript", "tailwindcss", "useContext"],
   },
 ];

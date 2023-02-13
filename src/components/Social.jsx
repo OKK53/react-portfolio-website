@@ -7,15 +7,15 @@ function Social() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="grid gap-y-4 text-lg">
+    <div className="flex gap-x-4 sm:grid gap-y-4 text-lg">
       <a
         href="https://github.com/OKK53"
         target="_blank"
         rel="noreferrer"
         className={
           darkMode
-            ? "text-gray-400 hover:text-white w-5 h-5"
-            : "text-gray-400 hover:text-gray-800 w-5 h-5"
+            ? "text-gray-400 hover:text-white text-2xl w-6 h-8"
+            : "text-gray-400 hover:text-gray-800 text-2xl w-6 h-8"
         }
       >
         <FiGithub />
@@ -26,8 +26,8 @@ function Social() {
         rel="noreferrer"
         className={
           darkMode
-            ? "text-gray-400 hover:text-white w-5 h-5"
-            : "text-gray-400 hover:text-gray-800 w-5 h-5"
+            ? "text-gray-400 hover:text-white text-2xl w-6 h-8"
+            : "text-gray-400 hover:text-gray-800 text-2xl w-6 h-8"
         }
       >
         <BsLinkedin />

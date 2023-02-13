@@ -14,7 +14,7 @@ function App() {
     <div
       style={{
         backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode ? "white" : "#222",
+        color: darkMode ? "#8b949e" : "#222",
       }}
     >
       <Header />

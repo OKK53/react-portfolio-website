@@ -1,8 +1,16 @@
 import cv from "assets/cv.pdf";
-function Data() {
+
+function DataAbout() {
   return (
-    <div>
-      <h1 className="flex text-6xl mb-3">
+    <div className="mx-2 sm:mx-0">
+      <h6 className="text-lg">
+        Hi!
+        <div className="inline-block animate-wave_animation w-5 h-5 origin-bottom-right ml-1 mr-2">
+          👋
+        </div>
+        My name is
+      </h6>
+      <h1 className="flex text-6xl my-3">
         Oğuz Kağan
         <svg
           width="38"
@@ -54,9 +62,12 @@ function Data() {
           ></path>
         </svg>
       </h1>
-      <h3 className="relative text-xl mb-4 pl-24">Software Engineer</h3>
-      <p className="mb-4 max-w-[400px]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <h3 className="relative text-xl mb-5 text-center sm:text-start lg:pl-24">
+        Software Engineer 💻
+      </h3>
+      <p className="mb-12 max-w-[400px]">
+        I'm a software engineer based in Turkey and I'm a very passionate who
+        wants to explore new technologies and to do new things about them..
       </p>
       <a
         download=""
@@ -93,4 +104,4 @@ function Data() {
   );
 }
 
-export default Data;
+export default DataAbout;
