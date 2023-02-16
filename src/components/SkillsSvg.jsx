@@ -4,7 +4,7 @@ import { ThemeContext } from "context/ThemeContext";
 
 function SkillsSvg() {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  const mode = theme.state.mode;
   return (
     <section className="container mx-auto  pt-24 pb-8 px-0" id="skills">
       <h2 className="text-5xl text-center">Skills</h2>
@@ -16,7 +16,7 @@ function SkillsSvg() {
               <li
                 key={skill.id}
                 className={
-                  darkMode
+                  mode === "dark"
                     ? "p-2 grayscale-0 hover:grayscale"
                     : "p-2 grayscale hover:grayscale-0"
                 }

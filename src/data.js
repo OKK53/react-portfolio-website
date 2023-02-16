@@ -27,9 +27,9 @@ import kalilinux from "assets/skillsSVG/kalilinux.svg";
 import photoshop from "assets/skillsSVG/photoshop.svg";
 
 //project images
-import work1 from "assets/projectsImages/work1.jpg";
-import work2 from "assets/projectsImages/work2.jpg";
-import work3 from "assets/projectsImages/work3.jpg";
+import reactblogmern from "assets/projectsImages/react-blog-mern.png";
+import reactnavarcwebsite from "assets/projectsImages/react-navarc-website.png";
+import reactcrudbooks from "assets/projectsImages/react-crud-books.png";
 import portWebsite from "assets/projectsImages/portWebsite.png";
 
 export const skillsSvg = [
@@ -169,7 +169,7 @@ export const skillsSvg = [
 export const projects = [
   {
     id: 1,
-    img: work1,
+    img: reactblogmern,
     title: "React-Blog-MERN",
     desc: "This is a MERN Stack blog app project using React.js, Node.js, Express.js, MongoDB and Tailwind CSS. User can register, login, create, edit, delete and view posts (blogs).",
     link: "https://github.com/OKK53/react-blog-MERN",
@@ -184,7 +184,7 @@ export const projects = [
   },
   {
     id: 2,
-    img: work2,
+    img: reactnavarcwebsite,
     title: "React-Navarc-Website",
     desc: "This is a website project using React.js, TailwindCSS, emailjs. Two different language options, Turkish and English. Contact with validations using emailjs. ",
     link: "https://github.com/OKK53/react-navarc-website",
@@ -200,7 +200,7 @@ export const projects = [
   },
   {
     id: 3,
-    img: work3,
+    img: reactcrudbooks,
     title: "React-CRUD-Books",
     desc: "This is a CRUD operations app using React.js, MySQL, Node.js, Express.js,TailwindCSS. CRUD data using a MySQL database.",
     link: "https://github.com/OKK53/react-CRUD-books",

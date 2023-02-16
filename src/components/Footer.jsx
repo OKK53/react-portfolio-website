@@ -6,7 +6,7 @@ import { ThemeContext } from "context/ThemeContext";
 
 function Footer() {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  const mode = theme.state.mode;
   return (
     <footer className="border-t">
       <div className="pt-6 px-0 pb-2 font-poppins transition-all">
@@ -28,7 +28,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
             className={
-              darkMode
+              mode === "dark"
                 ? "text-3xl p-2 rounded-lg text-gray-400 hover:text-white"
                 : "text-3xl p-2 rounded-lg text-gray-400 hover:text-gray-800"
             }
@@ -40,7 +40,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
             className={
-              darkMode
+              mode === "dark"
                 ? "text-3xl p-2 rounded-lg text-gray-400 hover:text-white"
                 : "text-3xl p-2 rounded-lg text-gray-400 hover:text-gray-800"
             }
@@ -48,7 +48,7 @@ function Footer() {
             <BsLinkedin />
           </a>
         </div>
-        <span className="block mt-3 text-center text-sm font-poppins">
+        <span className="block mt-3 mb-16 md:mb-0 text-center text-sm font-poppins">
           &#169; 2023 AKAOKK. Made with
           <ImHeart className="inline-block justify-center text-center mx-1 text-red-600" />{" "}
           by Oğuz Kağan

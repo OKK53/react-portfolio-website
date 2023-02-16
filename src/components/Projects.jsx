@@ -4,7 +4,7 @@ import { ThemeContext } from "context/ThemeContext";
 
 function Projects() {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  const mode = theme.state.mode;
   return (
     <section className="container mx-auto pt-24 pb-8 px-0 " id="projects">
       <h2 className="text-5xl text-center">Portfolio</h2>
@@ -18,7 +18,7 @@ function Projects() {
           target="_blank"
           rel="noreferrer"
           className={
-            !darkMode
+            mode === "light"
               ? "px-6 py-5 border-2 rounded-2xl font-poppins font-bold border-[#0969DA] text-[#0969DA] hover:text-white hover:bg-[#0969DA]"
               : "px-6 py-5 border-2 border-[#8b949e] rounded-2xl font-poppins font-bold bg-[#388BFD26] text-[#8b949e] hover:text-[#0969DA] hover:bg-[#8b949e]"
           }

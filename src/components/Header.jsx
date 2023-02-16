@@ -9,7 +9,7 @@ import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 
 function Header() {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  const mode = theme.state.mode;
   const [showToggle, setShowToggle] = useState(false);
   const [showNav, setShowNav] = useState(false);
 
@@ -24,14 +24,17 @@ function Header() {
     <header>
       <div
         className={
-          darkMode
+          mode === "dark"
             ? "hidden md:flex w-full h-16 fixed top-0 left-0 z-10 bg-[#222] py-3 px-16 border-b border-white"
             : "hidden md:flex w-full h-16 fixed top-0 left-0 z-10 bg-white py-3 px-16 border-b"
         }
       >
         <nav className="flex w-full h-12 justify-around items-center font-poppins text-xl transition-all">
           <div className="text-center p-2">
-            <a href="/" className={darkMode ? "text-#8b949e" : "text-black"}>
+            <a
+              href="/"
+              className={mode === "dark" ? "text-#8b949e" : "text-black"}
+            >
               OKK
             </a>
           </div>
@@ -40,7 +43,7 @@ function Header() {
               <a
                 href="#about"
                 className={
-                  darkMode
+                  mode === "dark"
                     ? "text-#8b949e cursor-pointer hover:text-blue-600"
                     : "text-black cursor-pointer hover:text-blue-600"
                 }
@@ -52,7 +55,7 @@ function Header() {
               <a
                 href="#skills"
                 className={
-                  darkMode
+                  mode === "dark"
                     ? "text-#8b949e cursor-pointer hover:text-blue-600"
                     : "text-black cursor-pointer hover:text-blue-600"
                 }
@@ -64,7 +67,7 @@ function Header() {
               <a
                 href="#projects"
                 className={
-                  darkMode
+                  mode === "dark"
                     ? "text-#8b949e cursor-pointer hover:text-blue-600"
                     : "text-black cursor-pointer hover:text-blue-600"
                 }
@@ -74,7 +77,7 @@ function Header() {
             </li>
             <li
               className={
-                darkMode
+                mode === "dark"
                   ? "text-#8b949e flex hover:text-blue-600"
                   : "flex hover:text-blue-600"
               }
@@ -97,7 +100,7 @@ function Header() {
       {/* Mobile nav */}
       <div
         className={
-          !darkMode
+          mode === "light"
             ? `fixed flex md:hidden bottom-0  w-full border-t justify-between px-4 items-center font-poppins 
       transition-all text-xl z-10 bg-white  ${showNav ? "h-[30%]" : "h-16"}`
             : `fixed flex md:hidden bottom-0  w-full border-t justify-between px-4 items-center font-poppins 
@@ -114,7 +117,7 @@ function Header() {
                   onClick={handleStore}
                   href="#about"
                   className={
-                    darkMode
+                    mode === "dark"
                       ? "text-#8b949e cursor-pointer hover:text-blue-600 flex flex-col items-center gap-y-2"
                       : "text-black cursor-pointer hover:text-blue-600 flex flex-col items-center gap-y-2"
                   }
@@ -128,7 +131,7 @@ function Header() {
                   onClick={handleStore}
                   href="#skills"
                   className={
-                    darkMode
+                    mode === "dark"
                       ? "text-#8b949e cursor-pointer hover:text-blue-600 flex flex-col items-center gap-y-2"
                       : "text-black cursor-pointer hover:text-blue-600 flex flex-col items-center gap-y-2"
                   }
@@ -142,7 +145,7 @@ function Header() {
                   onClick={handleStore}
                   href="#projects"
                   className={
-                    darkMode
+                    mode === "dark"
                       ? "text-#8b949e cursor-pointer hover:text-blue-600 flex flex-col items-center gap-y-2"
                       : "text-black cursor-pointer hover:text-blue-600 flex flex-col items-center gap-y-2"
                   }
@@ -155,7 +158,10 @@ function Header() {
           </div>
         )}
         <div className="absolute bottom-0 mb-4 text-center">
-          <a href="#about" className={darkMode ? "text-#8b949e" : "text-black"}>
+          <a
+            href="#about"
+            className={mode === "dark" ? "text-#8b949e" : "text-black"}
+          >
             OKK
           </a>
         </div>
@@ -168,7 +174,7 @@ function Header() {
         {showNav && (
           <div
             className={
-              darkMode
+              mode === "dark"
                 ? "text-#8b949e flex hover:text-blue-600 absolute top-0 right-5 mt-4"
                 : "flex hover:text-blue-600 absolute top-0 right-5 mt-4"
             }

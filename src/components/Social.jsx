@@ -5,7 +5,7 @@ import { ThemeContext } from "context/ThemeContext";
 
 function Social() {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  const mode = theme.state.mode;
   return (
     <div className="flex gap-x-4 sm:grid gap-y-4 text-lg">
       <a
@@ -13,7 +13,7 @@ function Social() {
         target="_blank"
         rel="noreferrer"
         className={
-          darkMode
+          mode === "dark"
             ? "text-gray-400 hover:text-white text-2xl w-6 h-8"
             : "text-gray-400 hover:text-gray-800 text-2xl w-6 h-8"
         }
@@ -25,7 +25,7 @@ function Social() {
         target="_blank"
         rel="noreferrer"
         className={
-          darkMode
+          mode === "dark"
             ? "text-gray-400 hover:text-white text-2xl w-6 h-8"
             : "text-gray-400 hover:text-gray-800 text-2xl w-6 h-8"
         }

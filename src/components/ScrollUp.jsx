@@ -6,7 +6,7 @@ import { ThemeContext } from "context/ThemeContext";
 function ScrollUp() {
   const [show, setShow] = useState(false);
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  const mode = theme.state.mode;
 
   window.addEventListener("scroll", function () {
     //when the scroll is higher than 100 vh, show the scroll-icon
@@ -20,8 +20,8 @@ function ScrollUp() {
       >
         <BsFillArrowUpSquareFill
           className={
-            darkMode
-              ? "text-3xl  text-black hover:text-stone-600"
+            mode === "dark"
+              ? "text-3xl  text-[#8b949e]] hover:text-stone-600"
               : "text-3xl  text-stone-600 hover:text-black"
           }
         />

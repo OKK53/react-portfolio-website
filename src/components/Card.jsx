@@ -5,14 +5,14 @@ import { ThemeContext } from "context/ThemeContext";
 
 function Card() {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  const mode = theme.state.mode;
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-7 font-poppins justify-center transition-all">
       {projects.map((project) => (
         <div
           key={project.id}
           className={
-            !darkMode
+            mode === "light"
               ? "block text-center border rounded-xl shadow-lg"
               : "block text-center rounded-xl shadow-lg shadow-white"
           }
@@ -28,7 +28,7 @@ function Card() {
                 <span
                   key={idx}
                   className={
-                    !darkMode
+                    mode === "light"
                       ? "block px-2 my-1 mr-1 text-sm bg-[#DDF4FF] text-[#0969DA] hover:text-white hover:bg-[#0969DA] rounded-3xl font-medium items-center text-center justify-center"
                       : "block px-2 my-1 mr-1 text-sm bg-[#388BFD26] text-[#58A6FF] hover:text-white hover:bg-[#0969DA] rounded-3xl font-medium items-center text-center justify-center"
                   }
@@ -47,7 +47,7 @@ function Card() {
               target="_blank"
               rel="noreferrer"
               className={
-                !darkMode
+                mode === "light"
                   ? "inline-flex items-center text-center px-5 py-2 gap-x-2 border rounded-md bg-[#DDF4FF] text-[#0969DA] hover:text-white hover:bg-[#0969DA]"
                   : "inline-flex items-center text-center px-5 py-2 gap-x-2 rounded-md bg-[#388BFD26] text-[#58A6FF] hover:text-white hover:bg-[#0969DA]"
               }

@@ -9,12 +9,12 @@ import { ThemeContext } from "context/ThemeContext";
 
 function App() {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  const mode = theme.state.mode;
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode ? "#8b949e" : "#222",
+        backgroundColor: mode === "dark" ? "#222" : "white",
+        color: mode === "dark" ? "#8b949e" : "#222",
       }}
     >
       <Header />
