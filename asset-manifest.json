@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/react-portfolio-website/static/css/main.14754bc1.css",
-    "main.js": "/react-portfolio-website/static/js/main.fac4d042.js",
+    "main.js": "/react-portfolio-website/static/js/main.997a0bbf.js",
     "static/media/react-blog-mern.png": "/react-portfolio-website/static/media/react-blog-mern.14a82869394c86ebf43d.png",
+    "static/media/Oguz_Kagan Kamil_Resume.pdf": "/react-portfolio-website/static/media/Oguz_Kagan Kamil_Resume.4f48c09f5fbc8024da2a.pdf",
     "static/media/react-navarc-website.png": "/react-portfolio-website/static/media/react-navarc-website.80f3fb990c7ecda3338b.png",
     "static/media/react-crud-books.png": "/react-portfolio-website/static/media/react-crud-books.f304603e5f2baf375524.png",
-    "static/media/cvImage.jpg": "/react-portfolio-website/static/media/cvImage.2d1f2a862663f9fb3c3e.jpg",
+    "static/media/cvImage.jpg": "/react-portfolio-website/static/media/cvImage.a78c18c012b0fd9edaeb.jpg",
     "static/media/portWebsite.png": "/react-portfolio-website/static/media/portWebsite.7681af474c9b18a8db17.png",
     "static/media/nodejs.svg": "/react-portfolio-website/static/media/nodejs.b0d6c7cead1cf51d8ac0b40bf3637dce.svg",
     "static/media/postman.svg": "/react-portfolio-website/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
@@ -13,7 +14,6 @@
     "static/media/express.svg": "/react-portfolio-website/static/media/express.66a48237e77e14cb59e9923f3c7772ff.svg",
     "static/media/kalilinux.svg": "/react-portfolio-website/static/media/kalilinux.499c3376cab58e8731876c894051322b.svg",
     "static/media/mongodb.svg": "/react-portfolio-website/static/media/mongodb.9fa546c6a6dfddc0b151942d6f27c028.svg",
-    "static/media/cv.pdf": "/react-portfolio-website/static/media/cv.e83747cf513e0b21a7f1.pdf",
     "static/media/mysql.svg": "/react-portfolio-website/static/media/mysql.698a753d007c6d6b014dd8b58428c7f3.svg",
     "static/media/pycharm.svg": "/react-portfolio-website/static/media/pycharm.2c56efb6406e89743e2df8e7e9808149.svg",
     "static/media/netlify.svg": "/react-portfolio-website/static/media/netlify.3da251cdb48eac16d134e2478647d2eb.svg",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.14754bc1.css",
-    "static/js/main.fac4d042.js"
+    "static/js/main.997a0bbf.js"
   ]
 }
