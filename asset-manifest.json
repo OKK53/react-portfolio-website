@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio-website/static/css/main.14754bc1.css",
-    "main.js": "/react-portfolio-website/static/js/main.997a0bbf.js",
+    "main.js": "/react-portfolio-website/static/js/main.2989a2d3.js",
     "static/media/react-blog-mern.png": "/react-portfolio-website/static/media/react-blog-mern.14a82869394c86ebf43d.png",
-    "static/media/Oguz_Kagan Kamil_Resume.pdf": "/react-portfolio-website/static/media/Oguz_Kagan Kamil_Resume.4f48c09f5fbc8024da2a.pdf",
+    "static/media/resume.pdf": "/react-portfolio-website/static/media/resume.4f48c09f5fbc8024da2a.pdf",
     "static/media/react-navarc-website.png": "/react-portfolio-website/static/media/react-navarc-website.80f3fb990c7ecda3338b.png",
     "static/media/react-crud-books.png": "/react-portfolio-website/static/media/react-crud-books.f304603e5f2baf375524.png",
     "static/media/cvImage.jpg": "/react-portfolio-website/static/media/cvImage.a78c18c012b0fd9edaeb.jpg",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.14754bc1.css",
-    "static/js/main.997a0bbf.js"
+    "static/js/main.2989a2d3.js"
   ]
 }
