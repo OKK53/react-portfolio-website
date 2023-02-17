@@ -32,7 +32,7 @@ function Header() {
         <nav className="flex w-full h-12 justify-around items-center font-poppins text-xl transition-all">
           <div className="text-center p-2">
             <a
-              href="/"
+              href="https://okk53.github.io/react-portfolio-website"
               className={mode === "dark" ? "text-#8b949e" : "text-black"}
             >
               OKK

@@ -1,4 +1,4 @@
-import cv from "assets/cv.pdf";
+import cv from "assets/Oguz_Kagan Kamil_Resume.pdf";
 
 function DataAbout() {
   return (

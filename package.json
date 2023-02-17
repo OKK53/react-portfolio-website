@@ -19,7 +19,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "watch": "npx tailwindcss -i tailwind.css -o src/style.css --watch",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
