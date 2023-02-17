@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.14754bc1.css",
-    "main.js": "/react-portfolio-website/static/js/main.fac4d042.js",
+    "main.css": "/react-portfolio-website/static/css/main.27e99ab4.css",
+    "main.js": "/react-portfolio-website/static/js/main.093c77ce.js",
     "static/media/react-blog-mern.png": "/react-portfolio-website/static/media/react-blog-mern.14a82869394c86ebf43d.png",
     "static/media/react-navarc-website.png": "/react-portfolio-website/static/media/react-navarc-website.80f3fb990c7ecda3338b.png",
     "static/media/react-crud-books.png": "/react-portfolio-website/static/media/react-crud-books.f304603e5f2baf375524.png",
@@ -34,10 +34,12 @@
     "static/media/html.svg": "/react-portfolio-website/static/media/html.1ad7bf6dbc7123c883224d7fe5cdeb19.svg",
     "static/media/unity.svg": "/react-portfolio-website/static/media/unity.5219b8c30e9017838ad4a404f2758635.svg",
     "static/media/vscode.svg": "/react-portfolio-website/static/media/vscode.483ce3930fb0500d6d7dd42b4a64be47.svg",
-    "static/media/npm.svg": "/react-portfolio-website/static/media/npm.2c362bda3c7fcda8ec0c3cd014152814.svg"
+    "static/media/npm.svg": "/react-portfolio-website/static/media/npm.2c362bda3c7fcda8ec0c3cd014152814.svg",
+    "main.27e99ab4.css.map": "/react-portfolio-website/static/css/main.27e99ab4.css.map",
+    "main.093c77ce.js.map": "/react-portfolio-website/static/js/main.093c77ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.14754bc1.css",
-    "static/js/main.fac4d042.js"
+    "static/css/main.27e99ab4.css",
+    "static/js/main.093c77ce.js"
   ]
 }
