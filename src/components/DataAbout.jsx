@@ -1,4 +1,4 @@
-import cv from "assets/Oguz_Kagan Kamil_Resume.pdf";
+import resume from "assets/resume.pdf";
 
 function DataAbout() {
   return (
@@ -71,7 +71,7 @@ function DataAbout() {
       </p>
       <a
         download=""
-        href={cv}
+        href={resume}
         className="py-5 px-8 rounded-2xl font-medium inline-flex border items-center gap-x-1 bg-gray-700 text-white hover:bg-gray-500 transition-all"
       >
         Download CV
