@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/react-portfolio-website/static/css/main.01065df9.css",
-    "main.js": "/react-portfolio-website/static/js/main.cb780ee0.js",
+    "main.js": "/react-portfolio-website/static/js/main.2988eb96.js",
     "static/media/react-blog-mern.png": "/react-portfolio-website/static/media/react-blog-mern.14a82869394c86ebf43d.png",
     "static/media/resume.pdf": "/react-portfolio-website/static/media/resume.4f48c09f5fbc8024da2a.pdf",
     "static/media/react-navarc-website.png": "/react-portfolio-website/static/media/react-navarc-website.80f3fb990c7ecda3338b.png",
+    "static/media/react-mappin-mern.png": "/react-portfolio-website/static/media/react-mappin-mern.459e7b3a76f1e283aa25.png",
+    "static/media/react-socket-io.png": "/react-portfolio-website/static/media/react-socket-io.cac0c9273f02370042dd.png",
     "static/media/react-crud-books.png": "/react-portfolio-website/static/media/react-crud-books.f304603e5f2baf375524.png",
     "static/media/cvImage.jpg": "/react-portfolio-website/static/media/cvImage.a78c18c012b0fd9edaeb.jpg",
     "static/media/portWebsite.png": "/react-portfolio-website/static/media/portWebsite.7681af474c9b18a8db17.png",
+    "static/media/react-firebase-chatapp.png": "/react-portfolio-website/static/media/react-firebase-chatapp.3043d38692b674bb9ae1.png",
     "static/media/nodejs.svg": "/react-portfolio-website/static/media/nodejs.b0d6c7cead1cf51d8ac0b40bf3637dce.svg",
     "static/media/postman.svg": "/react-portfolio-website/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
     "static/media/lua.svg": "/react-portfolio-website/static/media/lua.b2061a978e0739b92c8f7fae82d5372e.svg",
@@ -38,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.01065df9.css",
-    "static/js/main.cb780ee0.js"
+    "static/js/main.2988eb96.js"
   ]
 }
