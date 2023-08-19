@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio-website/static/css/main.baf79cb7.css",
-    "main.js": "/react-portfolio-website/static/js/main.4359d145.js",
+    "main.js": "/react-portfolio-website/static/js/main.822ada5a.js",
     "static/media/react-blog-mern.png": "/react-portfolio-website/static/media/react-blog-mern.14a82869394c86ebf43d.png",
     "static/media/resume.pdf": "/react-portfolio-website/static/media/resume.94e7564ad410fa5d0b57.pdf",
     "static/media/react-navarc-website.png": "/react-portfolio-website/static/media/react-navarc-website.80f3fb990c7ecda3338b.png",
     "static/media/react-mappin-mern.png": "/react-portfolio-website/static/media/react-mappin-mern.459e7b3a76f1e283aa25.png",
     "static/media/react-socket-io.png": "/react-portfolio-website/static/media/react-socket-io.cac0c9273f02370042dd.png",
     "static/media/react-crud-books.png": "/react-portfolio-website/static/media/react-crud-books.f304603e5f2baf375524.png",
+    "static/media/twitter-clone.png": "/react-portfolio-website/static/media/twitter-clone.cda4a0b6fefb774a2b3f.png",
     "static/media/cvImage.jpg": "/react-portfolio-website/static/media/cvImage.a78c18c012b0fd9edaeb.jpg",
     "static/media/portWebsite.png": "/react-portfolio-website/static/media/portWebsite.7681af474c9b18a8db17.png",
     "static/media/react-firebase-chatapp.png": "/react-portfolio-website/static/media/react-firebase-chatapp.3043d38692b674bb9ae1.png",
@@ -17,6 +18,7 @@
     "static/media/express.svg": "/react-portfolio-website/static/media/express.66a48237e77e14cb59e9923f3c7772ff.svg",
     "static/media/kalilinux.svg": "/react-portfolio-website/static/media/kalilinux.499c3376cab58e8731876c894051322b.svg",
     "static/media/mongodb.svg": "/react-portfolio-website/static/media/mongodb.9fa546c6a6dfddc0b151942d6f27c028.svg",
+    "static/media/nextjs.svg": "/react-portfolio-website/static/media/nextjs.89eccb8c019bd91cbc5a7d4e9b59a93e.svg",
     "static/media/mysql.svg": "/react-portfolio-website/static/media/mysql.698a753d007c6d6b014dd8b58428c7f3.svg",
     "static/media/pycharm.svg": "/react-portfolio-website/static/media/pycharm.2c56efb6406e89743e2df8e7e9808149.svg",
     "static/media/netlify.svg": "/react-portfolio-website/static/media/netlify.3da251cdb48eac16d134e2478647d2eb.svg",
@@ -30,6 +32,7 @@
     "static/media/csharp.svg": "/react-portfolio-website/static/media/csharp.040a443e3be3e2ab322fb029ff9dc32a.svg",
     "static/media/react.svg": "/react-portfolio-website/static/media/react.f97109b2930b86db956970827191fae3.svg",
     "static/media/javascript.svg": "/react-portfolio-website/static/media/javascript.3a1e87c6e57159e6a263df65940117a7.svg",
+    "static/media/typescript.svg": "/react-portfolio-website/static/media/typescript.78aa78046122abe258fee49f1dfe2f02.svg",
     "index.html": "/react-portfolio-website/index.html",
     "static/media/tailwindcss.svg": "/react-portfolio-website/static/media/tailwindcss.70db79595429640c1bd47191c8c0f915.svg",
     "static/media/git.svg": "/react-portfolio-website/static/media/git.cb6e5f029e7a0270187d860834912eb1.svg",
@@ -37,10 +40,11 @@
     "static/media/html.svg": "/react-portfolio-website/static/media/html.1ad7bf6dbc7123c883224d7fe5cdeb19.svg",
     "static/media/unity.svg": "/react-portfolio-website/static/media/unity.5219b8c30e9017838ad4a404f2758635.svg",
     "static/media/vscode.svg": "/react-portfolio-website/static/media/vscode.483ce3930fb0500d6d7dd42b4a64be47.svg",
+    "static/media/prisma.svg": "/react-portfolio-website/static/media/prisma.0c83fa9cfb7f44b331f62e4c52c3ad9f.svg",
     "static/media/npm.svg": "/react-portfolio-website/static/media/npm.2c362bda3c7fcda8ec0c3cd014152814.svg"
   },
   "entrypoints": [
     "static/css/main.baf79cb7.css",
-    "static/js/main.4359d145.js"
+    "static/js/main.822ada5a.js"
   ]
 }
